@@ -1,5 +1,9 @@
 function add(a, b) {
     return parseFloat(a) + parseFloat(b);
   }
-  module.exports = { add };
-  
+
+function modulo(a, b) {
+  return a % b;
+}
+
+module.exports = { add,modulo };
